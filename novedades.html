@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- theme meta -->
+    <meta name="theme-name" content="quixlab" />
+
+    <title>YourNominNow</title>
+    <!-- Favicon icon -->
+	<link rel="icon" href="./inicio/images/favicon.png" type="image/x-icon">
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Bootstrap JavaScript and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header" id="logoyournomi">
+            <div class="brand-logo">
+                <a href="index.html">
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content clearfix">
+
+                <div class="nav-control">
+                    <div class="hamburger">
+                        <span class="toggle-icon"><i class="icon-menu"></i></span>
+                    </div>
+                </div>
+                <div class="header-left">
+                </div>
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-email-outline"></i>
+                                <span class="badge badge-pill gradient-1">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">3 Nuevos Mensajes</span>
+                                    <a href="javascript:void()" class="d-inline-block">
+                                        <span class="badge badge-pill gradient-1">3</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li class="notification-unread">
+                                            <a href="javascript:void()">
+                                                <img class="float-left mr-3 avatar-img" src="images/avatar/1.jpg" alt="">
+                                                <div class="notification-content">
+                                                    <div class="notification-heading">Saiful Islam</div>
+                                                    <div class="notification-timestamp">Hace 8 horas</div>
+                                                    <div class="notification-text">Hola, tengo una peticion ...</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- More notification items... -->
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative" data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/avatar/11.png" height="40" width="40" alt="">
+                            </div>
+                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <a href="app-profile.html"><i class="icon-user"></i> <span>Perfil</span></a>
+                                        </li>
+                                        <hr class="my-2">
+                                        <li><a href="login.html"><i class="icon-key"></i> <span>Cerrar Sesion</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="nk-sidebar">
+            <div class="nk-nav-scroll">
+                <ul class="metismenu" id="menu">
+                    <li>
+                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                            <i class="icon-speedometer menu-icon"></i><span class="nav-text">Menu</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="./administrador.html">Inicio</a></li>
+                            <li><a href="./gestionarnom.html">Gestionar nomina</a></li>
+                            <li><a href="./empleados.html">Empleados</a></li>
+                            <li><a href="./novedades.html">Novedades</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body">
+
+
+            <div class="row page-titles mx-0">
+                <div class="col p-md-0">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active"><a href="administrador.html">Inicio</a></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="cartas">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="carta">
+                            <div class="content">
+                                <p class="heading">Devengados</p>
+                                <p class="para">Crea y configura los devengados que sean necesario para tu nomina </p>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenteredScrollable">
+                                    <a href="#"></a>Configurar
+                                </button>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="carta">
+                            <div class="content">
+                                <p class="heading">Deducciones</p>
+                                <p class="para">Crea y configura las deducciones que sean necesario para tu nomina </p>
+                                <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenteredScrollables">
+                                    <a href="#"></a>Configurar
+                                </button>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModalCenteredScrollables" tabindex="-1" aria-labelledby="deduccion" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5 titulonov" id="deduccion">Deduccion Nueva</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Crea los deducciones que necesites para manterlos guardados en los casos que sean requeridos</p>
+                        <p>Tipo de Deduccion:</p>
+                        <select class="form-select espaciocampo" aria-label="Default select example">
+                        <option selected>Seleccione el deduccion que quiera agregar</option>
+                        <option value="1">Seguros Medicos</option>
+                        <option value="2">Aportes de Pension</option>
+                        <option value="3">Creditos de libranza</option>
+                        <option value="4">Cuotas sindicales</option>
+                      </select>
+          
+                      <div class="mb-3">
+                          <p>Observaciones:</p>
+                          <textarea class="form-control" id="devobser" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary botonnov2">Agregar</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="modal fade" id="exampleModalCenteredScrollable" tabindex="-1" aria-labelledby="devengado" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title fs-5 titulonov" id="devengado">Devengado Nuevo</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>Crea los devengados que necesites para manterlos guardados en los casos que sean requeridos</p>
+          
+                        <p>Tipo de Devengado:</p>
+                        <select class="form-select espaciocampo" aria-label="Default select example">
+                        <option selected>Seleccione el devengado que quiera agregar</option>
+                        <option value="1">Bono anual</option>
+                        <option value="2">Dominicales</option>
+                      </select>
+          
+                      <div class="mb-3">
+                          <p>Observaciones:</p>
+                          <textarea class="form-control" id="devobser" rows="3"></textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary botonnov2">Agregar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Deducciones</h4>
+                            <div class="table-responsive">
+                                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-12"></div></div><div class="col-sm-8 col-md-12"><div id="DataTables_Table_0_filter" class="dataTables_filter"></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-striped table-bordered zero-configuration dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                    <thead>
+                                        <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 121.094px;">Nombre</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 200.438px;">Valor</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 86.3854px;">Observaciones</th>
+                                    </thead>
+                                    <tbody> 
+                                    <tr role="row" class="odd">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                            <td></td>
+
+                                        </tr><tr role="row" class="even">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                            <td></td>
+
+                                        </tr><tr role="row" class="odd">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                            <td></td>
+
+                                        </tr><tr role="row" class="even">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                        </tr></tbody>
+                                </table></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Devengados</h4>
+                            <div class="table-responsive">
+                                <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4"><div class="row"><div class="col-sm-12 col-md-12"></div></div><div class="col-sm-8 col-md-12"><div id="DataTables_Table_0_filter" class="dataTables_filter"></div></div></div><div class="row"><div class="col-sm-12"><table class="table table-striped table-bordered zero-configuration dataTable" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                                    <thead>
+                                        <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending" style="width: 121.094px;">Nombre</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending" style="width: 200.438px;">Valor</th><th class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending" style="width: 86.3854px;">Observaciones</th>
+                                    </thead>
+                                    <tbody> 
+                                    <tr role="row" class="odd">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                            <td></td>
+
+                                        </tr><tr role="row" class="even">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                            <td></td>
+
+                                        </tr><tr role="row" class="odd">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                            <td></td>
+
+                                        </tr><tr role="row" class="even">
+                                            <td class="sorting_1"></td>
+                                            <td></td>
+                                        </tr></tbody>
+                                </table></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <style>
+           .cartas{
+                margin-top: 20px;
+                margin-left: 15%;
+                margin-bottom: 60px;
+            }
+            .carta {
+                position: relative;
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 320px;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                padding: 32px;
+                overflow: hidden;
+                border-radius: 10px;
+                transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+              }
+              
+              .content {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                color: #191A19;
+                transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+              }
+              
+              .content .heading {
+                font-weight: 700;
+                font-size: 32px;
+              }
+              
+              .content .para {
+                line-height: 1.5;
+              }
+              
+              .content .btn {
+                color: #e8e8e8;
+                text-decoration: none;
+                padding: 10px;
+                font-weight: 600;
+                border: none;
+                cursor: pointer;
+                background: #1E5128;
+                border-radius: 5px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+              }
+              
+              .carta .line {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 5px;
+                background: #4E9F3D;
+              }
+            
+            .titulonov{
+                color: #4E9F3D;
+            }
+            .espaciocampo{
+                margin-bottom: 8px;
+            
+            }
+            
+            .botonnov2{
+                background-color: #1E5128;
+            }
+        </style>
+
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Copyright &copy; Diseñado Y Desarrollado Por <a href="#">YourNominNow</a> 2023</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

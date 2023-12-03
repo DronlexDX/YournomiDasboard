@@ -1,0 +1,200 @@
+:root {
+    --first-color: #191A19;
+    --second-color: #1E5128;
+    --third-color: #4E9F3D;
+    --fourth-color: #D8E9A8;
+    --fifth-color: #ffffff;
+
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+/* 
+  parte del login */
+
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  }
+*{
+    font-family: 'Oswald', sans-serif;;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.input-group{
+    margin: 10px;
+
+}
+#login1{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #3b453c, #0fb71f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.container1{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.container1 p{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: 20px 0;
+}
+
+.container1 a{
+    color: #333;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.container1 button{
+    background-color: #4E9F3D;
+    color: white;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container1 form{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+}
+
+.container1 input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none; 
+}
+
+.form-container1{
+    position: absolute;
+    top: 0;
+    height: 100%;
+
+}
+.inicio{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
+
+.toggle-container{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+}
+
+.toggle{
+    background-color: #1E5128;
+    background: linear-gradient(to right, #4cd650, #1E5128);
+    height: 100%;
+    color: white;
+    position: relative; 
+    height: 100%;
+    width: 100%;  
+}
+
+.toggle-panel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top: 0;
+}
+
+.toggle-right{
+    right: 0;
+
+}
+
+
+/* diseño de agregar empleado */
+
+.confiemple{
+font-size: 40px;
+}
+.agregar{
+    display: flex;
+    justify-content: end;
+    align-items: none;
+}
+.fondo{
+    background: var(--fourth-color);
+    width: 70%;
+    
+
+}
+
+.bg-custom1{
+    background-color: var(--third-color);
+}
+
+#boton.btn.btn-primary{
+    background-color: var(--first-color) !important;
+    border-color: var(--fifth-color);
+}
+#boton2.btn.btn-primary{
+    background-color: var(--second-color) !important;
+    border-color: var(--fifth-color);
+}
+
+
+
+
+/* afectacion codigo manipulado */
+
+.input-group-text{
+    height: 39px;
+    margin-top: 8px;
+}
+.card-header{
+    margin-left: 100px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    margin-left: 18px;
+}
+.navbar-dark .navbar-brand{
+    margin-left: 18px;
+}
